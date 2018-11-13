@@ -1,0 +1,25 @@
+{
+  "name": "andelachallenge-sendit",
+  "version": "1.0.0",
+  "description": "SendIT is a courier service that help users deliver parcel to different destinations ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianegwu/AndelaChallenge-SendIT.git"
+  },
+  "author": "Vivian Egwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivianegwu/AndelaChallenge-SendIT/issues"
+  },
+  "homepage": "https://github.com/vivianegwu/AndelaChallenge-SendIT#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
