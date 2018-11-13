@@ -258,7 +258,8 @@ button[type="submit"] {
 .modal-header {
     padding: 2px 16px;
     background-color: #33b27b;
-    color: white;
+	color: white;
+	height: 60px;
 }
 
 .modal-body {
