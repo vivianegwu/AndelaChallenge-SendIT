@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import logger from 'console';
 import express, { Router } from 'express';
 
