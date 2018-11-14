@@ -4,7 +4,7 @@
   "description": "SendIT is a courier service that help users deliver parcel to different destinations ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require @babel/register ./tests/*.js",
+    "test": "mocha --require @babel/register ./tests/*.js --exit",
     "start": "node ./build/server.js",
     "start:dev": "npm run lint && nodemon --exec babel-node ./server/server.js",
     "build": "npm run lint && babel server --out-dir build",
