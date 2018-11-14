@@ -6,8 +6,9 @@
   "scripts": {
     "test": "nyc --reporter=html mocha --require @babel/register ./tests/*.js --exit && npm run coverage",
     "start": "node ./build/server.js",
+    "postinstall": "npm run build",
     "start:dev": "npm run lint && nodemon --exec babel-node ./server/server.js",
-    "build": "npm run lint && babel server --out-dir build",
+    "build": "babel server --out-dir build",
     "lint": "eslint ./server",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
